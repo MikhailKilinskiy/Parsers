@@ -6,7 +6,7 @@ import pyodbc
 
 # Соединение с базой
 connection = pyodbc.connect('Driver={SQL Server};'
-                            'Server=BI2;'
+                            'Server=*******;'
                             'Database=OOS_DWH;'
                             'Trusted_Connection=yes')
 
